@@ -1,2 +1,5 @@
 # mac_conf
-store some configuration on macOS
+Store some configuration on macOS for:
+- vim
+- zsh
+- tmux
