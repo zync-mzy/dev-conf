@@ -1,4 +1,4 @@
-# mac_conf
+# mac-conf
 Store some configuration on macOS for:
 - vim
 - zsh
