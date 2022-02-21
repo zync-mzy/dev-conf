@@ -24,3 +24,4 @@ set tabstop=4
 set autoindent
 set expandtab
 set hlsearch
+autocmd! FileType go setlocal noexpandtab
