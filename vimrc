@@ -25,11 +25,18 @@ function! GoFormat()
 endfunction
 autocmd! BufWritePost *.go call GoFormat()
 
+" restores cursor position
+if has("autocmd")
+    au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g'\"" | endif
+endif
+
 syntax on
 set nu
+set nocp
 set encoding=utf8
 set tabstop=4
 set autoindent
 set expandtab
 set hlsearch
+set backspace=indent,eol,start
 autocmd! FileType go setlocal noexpandtab
