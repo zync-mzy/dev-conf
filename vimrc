@@ -17,6 +17,14 @@ function! RustFormat()
 endfunction
 autocmd! BufWritePost *.rs call RustFormat()
 
+function! GoFormat()
+    let file_path = expand('%:p')
+    execute "silent !gofmt -w " . file_path
+    execute ":e"
+    execute ":se filetype=go"
+endfunction
+autocmd! BufWritePost *.go call GoFormat()
+
 syntax on
 set nu
 set encoding=utf8
@@ -24,3 +32,4 @@ set tabstop=4
 set autoindent
 set expandtab
 set hlsearch
+autocmd! FileType go setlocal noexpandtab
