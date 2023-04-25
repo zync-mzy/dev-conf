@@ -9,6 +9,13 @@ export ZSH="/Users/zync/.oh-my-zsh"
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="robbyrussell"
 
+# To use theme [agnoster], powerline font should be installed first
+# ```
+# git clone git@github.com:powerline/fonts.git
+# cd fonts
+# ./install.sh
+# ```
+
 # Set list of themes to load
 # Setting this variable when ZSH_THEME=random
 # cause zsh load theme from this variable instead of
