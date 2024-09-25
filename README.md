@@ -1,6 +1,8 @@
-# mac-conf
-Store some configuration on macOS for:
+# dev-conf
+Store some configurations handy for development, including:
 - vim
 - zsh
 - tmux
 - sublime text
+- vscode plugin
+- toolkits
