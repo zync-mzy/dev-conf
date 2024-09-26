@@ -1,29 +1,29 @@
 # extensions
 
 ## c++
-C/C++
-Clang-Format
-Makefile Tools
+- C/C++
+- Clang-Format
+- Makefile Tools
 
 ## python
-isort
-Pylance
-Python
-Black Formatter
-Python Environment Management
+- isort
+- Pylance
+- Python
+- Black Formatter
+- Python Environment Management
 
 ## proto
-protobuf
-Protobuf (Protocol Buffers)
-vscode-proto3
+- protobuf
+- Protobuf (Protocol Buffers)
+- vscode-proto3
 
 ## git
-Git Graph
-GitLens
+- Git Graph
+- GitLens
 
 ## ai
-Github Copilot
-Github Copilot Chat
+- Github Copilot
+- Github Copilot Chat
 ```json
 {
     "remote.extensionKind": {
@@ -37,13 +37,13 @@ Github Copilot Chat
 ```
 
 ## profile
-Tab Group
-Todo Tree
-TODO Highlight
-Vim
-Remote
-Dracula
-Material
-One Dark Pro
-Peacock
-vscode-icons
+- Tab Group
+- Todo Tree
+- TODO Highlight
+- Vim
+- Remote
+- Dracula
+- Material
+- One Dark Pro
+- Peacock
+- vscode-icons
