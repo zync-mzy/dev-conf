@@ -4,5 +4,5 @@ Store some configurations handy for development, including:
 - zsh
 - tmux
 - sublime text
-- vscode plugin
+- vscode extensions
 - toolkits
