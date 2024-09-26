@@ -1,4 +1,5 @@
 # 安装常用的命令
+## centos
 ```sh
 # 这个包可以用于安装各版本的开发工具devtoolset
 yum install centos-release-scl
@@ -19,6 +20,10 @@ yum install docker
 yum install tmux
 ```
 
+## ubuntu
+```sh
+apt install git-delta
+```
 
 # 配置git
 如果安装vim-go的时候把系统自带的git 2.x覆盖成git 1.x，则需要修改一些配置让git更好用，把以下内容粘贴到`/etc/gitconfig`中
@@ -27,6 +32,27 @@ yum install tmux
     ui = true
 [core]
     autocrlf = true
+
+# for git-delta
+[core]
+        editor = vim
+        pager = delta
+
+[interactive]
+        diffFilter = delta --color-only
+
+[delta]
+        navigate = true    # use n and N to move between diff sections
+
+        # delta detects terminal colors automatically; set one of these to disable auto-detection
+        # dark = true
+        # light = true
+
+[merge]
+        conflictstyle = diff3
+
+[diff]
+        colorMoved = default
 ```
 
 
