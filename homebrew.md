@@ -1,10 +1,10 @@
 ``` bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-brew install wget tree clang-format
-brew install coreutils
+brew install wget tree clang-format git-delta
 
 # gun toolkits
+brew install coreutils
 brew install gawk gnu-sed grep findutils binutils diffutils
 
 # upgrade
