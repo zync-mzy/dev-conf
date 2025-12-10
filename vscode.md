@@ -1,3 +1,10 @@
+# mac conf
+```bash
+# enable press and hold in vim mode
+osascript -e 'id of app "Cursor"' # optional, fetch the id of other apps like 'Cursor', 'TRAE CN'
+defaults write com.microsoft.VSCode ApplePressAndHoldEnabled -bool false
+```
+
 # extensions
 
 ## c++
@@ -13,9 +20,8 @@
 - Python Environment Management
 
 ## proto
-- protobuf
-- Protobuf (Protocol Buffers)
 - vscode-proto3
+- jumpprotobuf
 
 ## git
 - Git Graph
@@ -46,4 +52,5 @@
 - Material
 - One Dark Pro
 - Peacock
+
 - vscode-icons
