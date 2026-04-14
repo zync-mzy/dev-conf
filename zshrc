@@ -81,6 +81,14 @@ fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
 # zsh-autosuggestions
 typeset -g ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=5'
 
+# history-substring-search
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+bindkey "$terminfo[kcuu1]" history-substring-search-up
+bindkey "$terminfo[kcud1]" history-substring-search-down
+bindkey '^p' history-substring-search-up
+bindkey '^n' history-substring-search-down
+
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -122,3 +130,13 @@ function gpb() {
     branch=$(git symbolic-ref HEAD | cut -d/ -f3)
     git push origin $branch
 }
+
+# Set up fzf key bindings and fuzzy completion
+source <(fzf --zsh)
+alias vf='vim $(fzf)'
+
+# autojump
+[ -f /opt/homebrew/etc/profile.d/autojump.sh ] && . /opt/homebrew/etc/profile.d/autojump.sh
+
+# prompt
+eval "$(starship init zsh)"
