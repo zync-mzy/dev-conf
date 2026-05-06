@@ -21,4 +21,7 @@ brew install --cask font-maple-mono-normal-nf-cn
 # ai coding agent
 brew install anomalyco/tap/opencode
 brew install codex
+
+# scroll
+brew install --cask mos
 ```
