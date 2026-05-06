@@ -1,0 +1,13 @@
+- scroll reverser
+- ibar
+- icopy
+- amphetamine
+- marktext
+- vs code
+- ghostty
+- bitwarden
+- tabbit
+- whistle
+- switch hosts
+- sublime text
+- source tree
