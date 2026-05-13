@@ -1,0 +1,6 @@
+font-size = 14
+theme = One Double Dark
+background-opacity = 0.8
+background-blur-radius = 20
+keybind = global:super+backquote=toggle_quick_terminal
+quick-terminal-size = 50%,100%
