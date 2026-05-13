@@ -6,4 +6,5 @@ Store some configurations handy for development, including:
 - sublime text
 - vscode extensions
 - toolkits
+- ghostty
 - useful macOS softwares
