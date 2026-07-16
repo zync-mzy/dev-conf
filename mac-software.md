@@ -1,4 +1,5 @@
 - scroll reverser
+- mos
 - ibar
 - icopy
 - amphetamine
