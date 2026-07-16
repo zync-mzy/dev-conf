@@ -11,3 +11,5 @@
 - switch hosts
 - sublime text
 - source tree
+- snipaste
+- orbstack
